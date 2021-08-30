@@ -15,6 +15,7 @@
 - Users can add products to their shopping cart.
 - Users can checkout.
 - Users can download a receipt as PDF to their own device.
+- Users can reset their login password.
 - Admin can add new products.
 - Admin can edit existing products.
 - Admin can add new categories.
