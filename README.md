@@ -3,7 +3,7 @@
 <img src='https://i.imgur.com/fHABTGj.png' alt='Ecommerce Project'>
 
 ## Technologies used 🛠️
-* React.js & React.js Redux
+* React.js & Redux
 * Vanilla CSS3
 * Node.js & Express.js & Sequelize
 * SQL & MySQL
