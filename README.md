@@ -19,7 +19,7 @@
 - Admin can add new products.
 - Admin can edit existing products.
 - Admin can add new categories.
-- Admin can edit categories name.
+- Admin can edit categories names.
 
 ## 3rd Party SDK Integration
 #### Integrated 3rd party SDK for images storing.
