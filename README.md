@@ -36,12 +36,12 @@
 - <a href='https://react-icons.github.io/react-icons/'>React Icons</a>
 - <a href='https://nodemailer.com/about/'>Nodemailer</a>
 
-## Live Preview 🔗
+<!-- ## Live Preview 🔗
 The project is hosted on Heroku.
 
-For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</a></strong>.
+For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</a></strong>. -->
 
-## Demonstration 🤹‍♂️
+<!-- ## Demonstration 🤹‍♂️
 ### Admin Panel:
 <img src='img' alt='Ecommerce project'>
 
@@ -56,4 +56,4 @@ For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</
 ### User Panel:
 <img src='img' alt='Ecommerce project'>
 
-<img src='img' alt='Ecommerce project'>
+<img src='img' alt='Ecommerce project'> -->
