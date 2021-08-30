@@ -26,7 +26,7 @@
 - <a href='https://cloudinary.com/'>Cloudinary</a>
 
 ## 3rd Party CDN Integration
-#### Integrated 3rd party CDNs for icons and interactive chart
+#### Integrated 3rd party CDNs
 
 - <a href='https://axios-http.com/'>Axios</a>
 - <a href='https://www.npmjs.com/package/jspdf'>jsPDF</a>
