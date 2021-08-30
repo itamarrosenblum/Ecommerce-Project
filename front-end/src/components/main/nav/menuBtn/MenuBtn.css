@@ -1,0 +1,37 @@
+.nav-main-container .menu-btn {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    color: #444;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-main-container .menu-btn:hover { background-color: rgba(242, 242, 242, 0.7); }
+
+.nav-main-container .cart-icon { 
+    position: relative;
+    top: 2px;
+    font-size: 250%; 
+}
+
+.nav-main-container .back-icon { font-size: 250%; }
+
+.nav-main-container .hamburger-box { position: relative; }
+
+.nav-main-container .product-counter {
+    display: inline-block;
+    background-color: #D51C4A;
+    color: #f1f1f1;
+    font-size: 90%;
+    padding: 3px 3px;
+    padding-left: 2px;
+    width: 22px;
+    border-radius: 100%;
+    position: absolute;
+    right: -7px;
+    top: -25px;
+    z-index: 2;
+    font-weight: bold;
+}

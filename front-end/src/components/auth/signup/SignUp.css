@@ -1,0 +1,123 @@
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.signup-form .login-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    opacity: 0.9;
+}
+
+.signup-form .login-box button { margin-left: 5px; }
+
+.signup-form .btn-box { 
+    display: flex;
+    padding-bottom: 10px;
+    opacity: 0.9;
+}
+
+.signup-form .btn-box button {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-size: 100%;
+    color: #fff;
+    background-color: #6D7A99;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.signup-form .btn-box button:hover { opacity: 1; }
+
+.signup-form .btn-box .back-btn { background-color: #6d7a99ab; }
+
+.signup-form .btn-box button:disabled { background-color: rgba(129, 136, 151, 0.288); }
+
+.signup-form .btn-box button:not(.progress-btn) { margin-right: 5px; }
+
+.signup-form .btn-link {
+    border: none;
+    color: #248aff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.signup-form .btn-link:hover { text-decoration: underline; }
+
+.signup-form .btn-link,
+.signup-form .login-box span { font-size: 80%; }
+
+.signup-container .header-box { 
+    padding: 10px;
+    padding-bottom: 0px;
+ }
+
+.signup-container h1 {
+    font-size: 149%;
+    font-weight: normal;
+    opacity: 0.9;
+    user-select:none;
+}
+
+.signup-container h1 span:first-child { color:#1e87dd; }
+
+.signup-container  h1 span:last-child { 
+    position: relative;
+    right: 2px;
+    font-size: 85%;
+    color: #d51c4a;
+}
+
+.signup-container h1 span .power-icon {
+    position: relative;
+    top: -2px;
+    right: -1px;
+    vertical-align: middle;
+}
+
+.signup-container h1 span span { display: inline; }
+
+/* Spinner */
+.signup-container .spinner { 
+    padding: 0;
+    text-align: center; 
+}
+
+.signup-container .btn-box .spinner-box {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: not-allowed;
+}
+  
+.signup-container .spinner > div {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+  
+.signup-container .spinner .bounce1 { animation-delay: -0.32s; }
+  
+.signup-container .spinner .bounce2 { animation-delay: -0.16s; }
+  
+@keyframes bouncedelay {
+    0%, 80%, 100% { transform: scale(0); } 
+    40% { transform: scale(1.0); }
+}

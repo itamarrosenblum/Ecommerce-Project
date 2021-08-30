@@ -1,0 +1,19 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    height: 100vh;
+    padding-top: 206px;
+    padding-left: 10px;
+}
+
+.main-display-full { 
+    width: 100%;
+    left: 0px; 
+}
+
+.main-display-half { 
+    width: calc(100% - 300px);
+    left: 300px; 
+}

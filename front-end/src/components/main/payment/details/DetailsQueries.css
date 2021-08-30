@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1222px) {
+    .payment-form {
+        border-left: unset;
+        margin-left: unset;
+        padding-left: unset;
+        padding: 5px;
+        position: relative;
+    }
+
+    .payment-container h2 {    
+        position: unset;
+        top: unset;
+        padding-left: unset   
+    }
+
+    .payment-container .payment-header h2 {
+        padding-left: 3px;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .payment-form {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .payment-container { width: 100%; }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .payment-container { margin-bottom: 15px; }
+}

@@ -1,0 +1,98 @@
+.sidebar-product-card {
+    display: flex;
+    align-items: inherit;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 5px 0px;
+    transition: background-color 0.2s;
+}
+
+
+.sidebar-product-card  .right-box { flex-grow: 2; }
+
+.sidebar-product-card .right-box,
+.sidebar-product-card .middle-box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 0 5px;
+}
+
+.sidebar-product-card .middle-box div { padding: 0 10px; }
+
+.sidebar-product-card .right-box  {
+    width: 50px;
+    text-align: right;
+}
+
+.sidebar-product-card .right-box button { color: rgba(47, 65, 110, 0.8); }
+
+.sidebar-product-card .quantity-box { position: relative; }
+
+.sidebar-product-card .quantity-box div:first-child {
+    display: flex;
+    width: 4em;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sidebar-product-card .quantity-box .quantity-btn {
+    border: none;
+    width: 2em;
+    padding: 6px;
+    font-size: 95%;
+    color: #444;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.sidebar-product-card .quantity-action-btn {
+    border: none;
+    padding: 2px 5px;
+    font-size: 120%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sidebar-product-card .quantity-action-btn:hover { background-color: #e2e2e2; }
+
+.sidebar-product-card .quantity-action-btn span {
+    position: relative;
+    color: #555;
+    top: 3px;
+}
+
+.sidebar-product-card .delete-btn {
+    border: none;
+    font-size: 125%;
+    color: #333;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.sidebar-product-card .delete-btn:hover { color: #323232; }
+
+.sidebar-product-card img { height: 70px; }
+
+.sidebar-product-card .price-box p { color: #D51C4A; }
+.sidebar-product-card .price-box p span { font-size: 75%; }
+
+.sidebar-product-card .product-name-box h3 { 
+    font-size: 78%;
+    font-weight: normal;
+}
+
+.sidebar-product-card .btn-box button {
+    border: none;
+    font-size: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar-product-card .img-box {
+    width: 70px;
+    height: 70px;
+}

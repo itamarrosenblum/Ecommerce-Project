@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1025px) {
+    .sidebar-container {
+        padding-top: 0px;
+        border-right: 1px solid #f1f1f1;
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    aside .cart-wraper { padding-bottom: 220px; }
+}
+
+@media only screen and (min-width: 1026px) {
+    .sidebar-first-nav { display: none;}
+}

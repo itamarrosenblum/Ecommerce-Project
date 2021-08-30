@@ -1,0 +1,150 @@
+.forgot-psw-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reset-pass-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.reset-pass-form .header-box h2,
+.email-sent-box h2 {
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.email-sent-box p { 
+    padding-bottom: 10px; 
+    font-size: 90%;
+}
+
+.reset-pass-form .header-box p { 
+    text-align: center;
+    font-size: 90%; 
+}
+
+.reset-pass-form .btn-link,
+.email-sent-box .btn-link {
+    border: none;
+    font-size: 80%;
+    color: #248aff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.reset-pass-form .btn-link:hover,
+.email-sent-box .btn-link:hover { text-decoration: underline; }
+
+.reset-pass-form div {
+    padding: 10px 0px;
+    opacity: 0.9;
+}
+
+.reset-pass-form div:hover { opacity: 1; }
+
+.reset-pass-form input {
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    color: #000;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 80%;
+}
+
+.reset-pass-form input:focus { outline: none; }
+
+.reset-pass-form label { display: block; }
+
+.reset-pass-form .btn-box button {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 100%;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: pointer;
+}
+
+.forgot-psw-container h1 {
+    font-size: 130%;
+    font-weight: normal;
+    opacity: 0.9;
+    user-select:none;
+}
+
+.forgot-psw-container h1 span:first-child { color:#1e87dd; }
+
+.forgot-psw-container  h1 span:last-child { 
+    position: relative;
+    right: 2px;
+    font-size: 85%;
+    color: #d51c4a;
+}
+
+.forgot-psw-container h1 span .power-icon {
+    position: relative;
+    top: -2px;
+    right: -1px;
+    vertical-align: middle;
+}
+
+.forgot-psw-container h1 span span { display: inline; }
+
+.email-sent-box {
+    padding: 10px;
+    text-align: center;
+}
+
+.email-sent-box .logo-box { padding-bottom: 10px; }
+
+.reset-pass-form .err-msg { 
+    font-size: 70%;
+    color: rgba(213, 28, 74, 1);
+}
+
+/* Spinner */
+.reset-pass-form .spinner { 
+    padding: 0;
+    text-align: center; 
+}
+
+.reset-pass-form .btn-box .spinner-box {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: not-allowed;
+}
+  
+.reset-pass-form .spinner > div {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+  
+.reset-pass-form .spinner .bounce1 { animation-delay: -0.32s; }
+  
+.reset-pass-form .spinner .bounce2 { animation-delay: -0.16s; }
+  
+@keyframes bouncedelay {
+    0%, 80%, 100% { transform: scale(0); } 
+    40% { transform: scale(1.0); }
+}

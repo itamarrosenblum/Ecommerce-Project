@@ -1,0 +1,19 @@
+.main-dash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    height: 100vh;
+    padding-top: 191px;
+    padding-left: 10px;
+}
+
+.main-dash-full { 
+    width: 100%;
+    left: 0px; 
+}
+
+.main-dash-half { 
+    width: calc(100% - 300px);
+    left: 300px; 
+}

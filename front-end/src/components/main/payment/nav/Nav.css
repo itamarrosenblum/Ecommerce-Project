@@ -1,0 +1,71 @@
+.payment-nav-container {
+    padding: 45px;
+    background-color: #d51c4a;
+    top: 0;
+}
+.payment-nav-container h1 {
+    margin-left: 10px;
+    font-weight: normal;
+    color:#f1f1f1;
+    opacity: 0.9;
+    user-select:none;
+    font-size: 170%;
+}
+
+.payment-nav-container h1 span:first-child { 
+    position: relative;
+    right: 2px;
+    font-size: 85%;
+}
+
+.payment-nav-container h1 span .power-icon {
+    position: relative;
+    top: -2px;
+    right: -1px;
+    vertical-align: middle;
+}
+
+.payment-nav-container h1 span span { display: inline; }
+
+.payment-nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.payment-nav-container div:first-child { 
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.payment-nav-container div:last-child { 
+    display: flex; 
+    align-items: center;
+}
+
+.payment-nav-container h2 {
+    font-weight: normal;
+    color: #f1f1f1;
+    font-size: 160%;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid #f1f1f1;
+}
+
+.payment-nav-container button {
+    border: none;
+    background-color: transparent;
+    color: #f1f1f1;
+    font-size: 110%;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.payment-nav-container button:hover { opacity: 0.95; }
+
+.payment-nav-container button span {
+    position: relative;
+    top: 5px;
+    font-size: 105%;
+}

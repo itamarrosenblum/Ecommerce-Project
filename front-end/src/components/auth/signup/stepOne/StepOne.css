@@ -1,0 +1,76 @@
+.container-step-one div {
+    padding: 5px 0px;
+    opacity: 0.9;
+}
+
+.container-step-one div:hover { opacity: 1; }
+
+.container-step-one input {
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 80%;
+}
+
+.container-step-one input:focus { outline: none; }
+
+.container-step-one label { display: block; }
+
+.container-step-one .password-box,
+.container-step-one .verify-password-box { position: relative; }
+
+.container-step-one .password-visibility-btn {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    margin: 0;
+    padding: 0;
+    padding-left: 2px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 100%;
+    opacity: 1;
+    background-color: #fff;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.container-step-one .err-msg { 
+    font-size: 70%;
+    color: rgba(213, 28, 74, 1);
+}
+
+/* Spinner */
+.container-step-one .spinner { text-align: center; }
+
+.container-step-one .btn-box .spinner-box {
+    display: inline-block;
+    padding: 0px 15px;
+    width: 130.08px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: not-allowed;
+}
+  
+.container-step-one .spinner > div {
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+  
+.container-step-one .spinner .bounce1 { animation-delay: -0.32s; }
+  
+.container-step-one .spinner .bounce2 { animation-delay: -0.16s; }
+  
+@keyframes bouncedelay {
+    0%, 80%, 100% { transform: scale(0); } 
+    40% { transform: scale(1.0); }
+}

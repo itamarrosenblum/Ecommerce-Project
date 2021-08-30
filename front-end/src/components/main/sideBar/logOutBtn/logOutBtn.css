@@ -1,0 +1,44 @@
+.res-client-settings-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.res-client-settings-nav .dropdown .drop-btn span {
+    position: relative;
+    top: 6px;
+    font-size: 140%;
+}
+
+.res-client-settings-nav .dropdown .drop-btn,
+.res-client-settings-nav div.dropdown-box .btn-logout {
+    padding: 2px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 95%;
+    color: rgba(47, 65, 110, 0.8);  
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.res-client-settings-nav div.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 14px;
+    padding-top: 2px;
+    width: 155px;
+	z-index: 1;
+    background-color: transparent;
+}
+
+.res-client-settings-nav .dropdown-content .dropdown-box  {
+    padding: 5px 1px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+
+.res-client-settings-nav:hover .dropdown-content { display: block; }
+
+.res-client-settings-nav:hover .drop-btn,
+.res-client-settings-nav .dropdown-box .btn-logout:hover { color: #248aff; }

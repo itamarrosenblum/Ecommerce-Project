@@ -1,0 +1,3 @@
+@media only screen and (max-width: 1025px) {
+    ul.settings-nav { display: none; }
+}

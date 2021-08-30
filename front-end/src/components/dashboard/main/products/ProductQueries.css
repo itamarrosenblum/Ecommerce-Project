@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1025px) {
+    .products-dash-container ul { justify-content: center; }
+}
+
+@media only screen and (device-aspect-ratio: 40/71) {
+    .products-dash-container ul { 
+        padding: 0px 10px; 
+        padding-bottom: 10px;
+    }
+}

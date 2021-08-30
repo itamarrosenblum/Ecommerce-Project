@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1025px) {
+    .main-dash-container { padding-left: 0px; }
+
+    .main-dash-half { 
+        left: 0px; 
+        width: 100%;
+    }
+}
+
+@media only screen and (device-aspect-ratio: 40/71) {
+    .main-dash-container { padding-top: 186px; }
+}

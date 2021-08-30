@@ -1,0 +1,68 @@
+.headr-main {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+.nav-main-container { 
+    padding: 15px 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo-box-main { margin-bottom: 10px; }
+
+.nav-logo-box-main h1 {
+    margin-left: 10px;
+    font-weight: normal;
+    color:#1e87dd;
+    opacity: 0.9;
+    user-select:none;
+}
+
+.nav-logo-box-main h1 span{ 
+    position: relative;
+    right: 2px;
+    font-size: 85%;
+    color: #d51c4a;
+}
+
+.nav-logo-box-main h1 span .power-icon {
+    position: relative;
+    top: -2px;
+    right: -1px;
+    vertical-align: middle;
+}
+
+.nav-logo-box-main h1 span span { display: inline; }
+
+.nav-logo-box-main {
+    display: flex;
+    width: 100%;
+}
+
+.nav-logo-box-main div:last-child { 
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.nav-utilities-box { 
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.nav-full { 
+    left: 0px; 
+    width: 100%;
+}
+
+.nav-half { 
+    left: 300px;
+    width: calc(100% - 300px);
+}

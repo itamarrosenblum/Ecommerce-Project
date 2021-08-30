@@ -1,0 +1,50 @@
+.sidebar-checkout-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-checkout-box div:first-child {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.sidebar-checkout-box div:first-child span:first-of-type { font-size: 80%; }
+
+.sidebar-checkout-box div:first-child span:last-of-type { font-size: 115%; }
+
+.sidebar-checkout-box div:first-child span:last-of-type span {
+    font-size: 75%;
+    display: inline;
+}
+
+.sidebar-checkout-box div:first-child span {
+    display: block;
+    color: #d51c4a;
+}
+
+.sidebar-checkout-box div:last-child {
+    width: 100%;
+    text-align: center;
+    background-color: #d51c4a;
+}
+
+.sidebar-checkout-box div:last-child button {
+    border: none;
+    font-size: 100%;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: #f1f1f1;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar-checkout-box div:last-child button:hover { background-color: #ca1a46; }
+
+.sidebar-checkout-box div:last-child button:disabled {
+    background-color: #a0a0a07e;
+    cursor: not-allowed;
+}

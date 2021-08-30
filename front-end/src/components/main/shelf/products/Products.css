@@ -1,0 +1,124 @@
+.products-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 290px));
+    grid-template-rows: auto;
+    column-gap: 10px; 
+    position: relative;
+    row-gap: 10px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.products-container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #f1f1f1;
+    opacity: 0.9;
+    transition: border 0.2s, opacity 0.2s;
+}
+
+.products-container .card-description { cursor: pointer; }
+
+.products-container ul li:last-of-type { margin-right: 0px; }
+
+.products-container ul li:hover {
+    border: 1px solid rgba(255, 165, 0, 0.5);
+    box-shadow: 5px 0px 6px 0px rgba(0, 0, 0, 0.02);
+    opacity: 1;
+}
+
+.products-container .product-btn {
+    border: none;
+    font-size: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.products-container img { 
+    width: 100%; 
+    height: 250px;
+    transition: transform 0.2s;
+}
+
+.products-container ul li:hover img { transform: scale(0.95); }
+
+.products-container figure { 
+    padding: 5px 15px;
+    width: 300px; 
+}
+
+.products-container .product-btn figcaption { 
+    text-align: left;
+    color: #2f416e;
+}
+
+.products-container p { 
+    margin: 4px 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 120%;
+    font-weight: normal;
+    color: #d51c4a;
+}
+
+.products-container p span { font-size: 75%; }
+
+.products-container .btn-box { background-color: #f9f9f9; }
+
+.products-container .quantity-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-container .quantity-box div span {
+    color: #333;
+    font-size: 115%;
+}
+
+.products-container .quantity-box button {
+    border: none;
+    font-size: 144%;
+    padding: 2.4px 10px;
+    margin: 0;
+    color: #444;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.products-container .quantity-box button:hover { background-color: #e2e2e2; }
+
+.products-container .quantity-box button span {
+    position: relative;
+    top: 4px;
+}
+
+.products-container .btn-box .add-cart-btn {
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+    font-size: 107%;
+    color: #333;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.products-container h3 {
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+.disabled-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.3);
+}

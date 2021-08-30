@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1222px) {
+    .cart-cntainer {
+        height: 200px;
+        width: 100%;
+    }
+
+    .cart-cntainer .img-data p { width: 335px; }
+}
+
+@media only screen and (max-width: 625px) {
+    .cart-cntainer { width: 100%; }
+
+    .cart-cntainer .img-data p { font-size: 70%; }
+
+    .cart-cntainer .img-data {  width: 70%;}
+
+    .cart-cntainer .product-card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cart-cntainer .right-box  {  width: 30%; }
+
+    .cart-cntainer .right-box p:first-child {
+        font-size: 72%;
+        margin-bottom: 5px;
+     }
+     
+    .cart-cntainer .right-box p:first-child span { font-size: 80%; }
+    
+    .cart-cntainer .right-box p:last-child { font-size: 70%; }
+
+    .cart-cntainer .img-data p { width: 380px; }
+
+}
+
+@media only screen and (max-width: 545px) {
+    .cart-cntainer .img-data p { width: 340px; }
+}
+
+@media only screen and (max-width: 450px) {
+    .cart-cntainer .img-data p {
+        width: 170px;
+        font-size: 70%;
+        padding-right: 30px;
+        padding-left: 7px;
+        text-align: left;
+    }
+    
+    .cart-cntainer .right-box p:first-child {
+        font-size: 70%;
+        margin-bottom: 5px;
+    }
+     
+    .cart-cntainer .right-box p:first-child span { font-size: 85%; }
+    
+    .cart-cntainer .right-box p:last-child { font-size: 70%; }
+}

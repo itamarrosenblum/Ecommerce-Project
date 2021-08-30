@@ -1,0 +1,13 @@
+.nav-container .menu-btn {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    color: #444;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-container .menu-btn:hover { background-color: rgba(242, 242, 242, 0.7); }
+
+.nav-container .hamburger-icon { font-size: 250%; }

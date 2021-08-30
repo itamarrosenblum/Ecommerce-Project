@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+    color: rgba(47, 65, 110, 0.8);
+    scroll-behavior: smooth;
+    scroll-padding: 90px;
+}
+
+::placeholder { color: #bbb; }

@@ -1,0 +1,88 @@
+.container-step-two div {
+    padding: 5px 0px;
+    opacity: 0.9;
+}
+
+.container-step-two div:hover { opacity: 1; }
+
+.container-step-two input {
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 80%;
+}
+
+.container-step-two input:focus { outline: none; }
+
+.container-step-two select { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 80%;
+    cursor: pointer; 
+}
+
+.container-step-two select.grey { color: #bbb; }
+.container-step-two select.black { color: #000; }
+
+.container-step-two select:focus {     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    color: #000;
+}
+
+.container-step-two select:hover {     
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+}
+
+.container-step-two select:active {     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.container-step-two label { display: block; }
+
+.container-step-two .err-msg { 
+    font-size: 70%;
+    color: rgba(213, 28, 74, 1);
+}
+
+/* Spinner */
+.container-step-two .spinner { text-align: center; }
+
+.container-step-two .btn-box .spinner-box {
+    display: inline-block;
+    padding: 0px 15px;
+    width: 130.08px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: not-allowed;
+}
+  
+.container-step-two .spinner > div {
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+  
+.container-step-two .spinner .bounce1 { animation-delay: -0.32s; }
+  
+.container-step-two .spinner .bounce2 { animation-delay: -0.16s; }
+  
+@keyframes bouncedelay {
+    0%, 80%, 100% { transform: scale(0); } 
+    40% { transform: scale(1.0); }
+}

@@ -1,0 +1,10 @@
+@media only screen and (device-aspect-ratio: 40/71) {
+    .search-form .btn-box button {
+        padding: 0px 5px;
+        font-size: 130%;
+    }
+
+    .search-form input[type='search'] { font-size: 95%; }
+
+    .search-form .btn-box button span { padding-right: 2px; }
+ }

@@ -1,0 +1,26 @@
+import './MenuBtn.css';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { IoMenuOutline, IoCloseOutline } from 'react-icons/io5';
+
+const MenuBtn = () => {
+    const toggleMenu = useSelector(state => state.getToggleMenu);
+    const dispatch = useDispatch();
+
+    return (
+        <button 
+            className='menu-btn' 
+            onClick={() => toggleMenu ? 
+                dispatch({type: 'SET_TOGGLE_MENU', toggleMenu: false}) 
+                :
+                dispatch({type: 'SET_TOGGLE_MENU', toggleMenu: true})}
+            >
+            { toggleMenu ?
+            <IoMenuOutline className='hamburger-icon' />
+            :
+            <IoCloseOutline className='hamburger-icon' /> }    
+        </button>
+    );
+}
+
+export default MenuBtn;

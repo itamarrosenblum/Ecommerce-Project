@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1025px) {
+    .sidebar-dash-container {
+        padding-top: 0px;
+        border-right: 1px solid #f1f1f1;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .sidebar-dash-container .sidebar-first-nav {
+        display: flex;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .sidebar-first-nav { display: none;}
+}

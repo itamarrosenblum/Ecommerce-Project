@@ -1,0 +1,203 @@
+.payment-form { background-color: #fff; }
+
+.payment-container .payment-header h2 {
+    font-size: 110%;
+    padding: 15px 0;
+    padding-left: 35px;
+    position: relative;
+    top: -29px;
+}
+
+.payment-form div label { display: block; }
+
+.payment-form {
+    padding-left: 35px;
+    margin-left: 35px;
+    padding: 5px;
+    position: relative;
+}
+
+.payment-form .city-box, 
+.payment-form .street-box, 
+.payment-form .date-box,
+.payment-form .creditCard-box { margin-bottom: 25px; }
+
+.payment-form { width: 568px; }
+
+.datePicker { width: 100%; }
+
+.payment-form input {
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 80%;
+}
+.payment-form input:focus { outline: none; }
+
+.payment-form input[type='date'] { font-family: Arial, Helvetica, sans-serif; }
+
+.test1 { display: none; }
+
+.payment-form .order-btn {
+    border: none;
+    font-size: 85%;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: #f1f1f1;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: #d51c4a;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+}
+
+.payment-form .order-btn:hover { opacity: 0.95; }
+
+.payment-form .help-box span:first-child {
+    display: inline-block;
+    margin-right: 3px;
+    font-size: 95%;
+    position: relative;
+    top: 5px;
+}
+
+.payment-form div span {
+    font-size: 65%;
+    letter-spacing: 0.5px;
+    color: rgba(175, 175, 175, 0.75);
+}
+
+.payment-form  input[type='number']::-webkit-outer-spin-button,
+.payment-form  input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* datepicker */
+.react-datepicker__header  { background-color: #f4f4f4; }
+
+.react-datepicker { font-size: 0.6rem; }
+
+.react-datepicker__month { margin: unset; }
+
+.react-datepicker__day-name, 
+.react-datepicker__day, 
+.react-datepicker__time-name {
+    line-height: 1.2rem;
+    width: 1.2rem;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::after { left: -45px }
+
+.react-datepicker__current-month { font-size: 0.75rem; }
+
+.payment-form .btn-disabled {
+    border: none;
+    font-size: 85%;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: #f1f1f1;
+    background-color: transparent;
+    cursor:not-allowed;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+    background-color: #ccc;
+}
+
+.payment-form .err-msg {
+    display: inline-block;
+    position: absolute;
+    color: red;
+    padding-top: 1px;
+}
+
+.modal-success-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+.modal-success-box {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 10px;
+
+}
+.modal-success {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column; 
+    background-color: #fff;
+    height: 350px;
+    width: 340px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal-success .success-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 130%;
+    color:#27ae60;
+    position: relative;
+    top: 11px;
+}
+
+.modal-success h2 {
+    font-size: 200%;
+    font-weight: normal;
+}
+
+.modal-success h3 {
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 130%;
+}
+
+.modal-success p span { padding: 2px 5px; }
+
+.modal-success .modal-success-top {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.modal-success .modal-success-bottom .download-btn {
+    font-size: 85%;
+    border: none;
+    color: rgba(47, 65, 110, 0.8);
+    cursor: pointer;
+    background-color: transparent;
+    margin: 15px 0;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+    transition: opacity 0.2s;
+}
+
+.modal-success  .modal-success-bottom .download-btn { opacity: 0.90; }
+
+.modal-success  .modal-success-bottom .btn-back {
+    background-color: #d51c4a;
+    border: none;
+    font-size: 100%;
+    padding: 10px;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: opacity 0.9;
+    width: 100%;
+}
+
+.modal-success .modal-success-bottom .btn-back:hover { opacity: 0.95; }
+
+.payment-container { position: relative; }

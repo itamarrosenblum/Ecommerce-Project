@@ -1,0 +1,12 @@
+.payment-wraper {
+    height: 100vh;
+    background-color: #F0F3F9;
+}
+
+.payment-box { 
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F3F9;
+}

@@ -1,0 +1,110 @@
+.edit-category-form { 
+    padding: 0px 10px; 
+    position: relative;
+}
+
+.edit-category-form div {
+    padding: 5px 0px;
+    opacity: 0.9;
+}
+
+.edit-category-form div:hover { opacity: 1; }
+
+.edit-category-form input,
+.edit-category-form select {
+    padding: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 80%;
+}
+
+.edit-category-form input:focus,
+.edit-category-form select:focus { outline: none; }
+
+.edit-category-form input[type='file'] {
+    position: absolute;
+    left: 45px;
+    border: none;
+    color: transparent;
+    z-index: -1;
+}
+
+.edit-category-form label { display: block; }
+
+.edit-category-form .btn-box .btn-edit {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 100%;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: pointer;
+}
+
+.edit-category-form select { cursor: pointer; }
+
+.edit-category-form select:not(:focus),
+.edit-category-form select option[value=''] { color: #bbb; }
+
+.edit-category-form .category-box-wraper { display: flex; }
+
+.edit-category-form .select-reset-btn {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 100%;
+    background-color: transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.edit-category-form select:focus + button.select-reset-btn,
+.edit-category-form select:valid + button.select-reset-btn { opacity: 1; }
+
+.edit-category-form select:not(:focus) + button.select-reset-btn { opacity: 0.4; }
+
+.edit-category-form .select-reset-btn span {
+    position: relative; 
+    top: 2px; 
+}
+
+.edit-category-form .err-msg { 
+    font-size: 70%;
+    color: rgba(213, 28, 74, 1);
+}
+
+/* Spinner */
+.edit-category-form .spinner { text-align: center; }
+
+.edit-category-form .btn-box .spinner-box {
+    display: inline-block;
+    padding: 0px 15px;
+    width: 151.2px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6D7A99;
+    cursor: not-allowed;
+}
+  
+.edit-category-form .spinner > div {
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+  
+.edit-category-form .spinner .bounce1 { animation-delay: -0.32s; }
+  
+.edit-category-form .spinner .bounce2 { animation-delay: -0.16s; }
+  
+@keyframes bouncedelay {
+    0%, 80%, 100% { transform: scale(0); } 
+    40% { transform: scale(1.0); }
+}
