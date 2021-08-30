@@ -1,6 +1,6 @@
 # Mazon Online - Single Page Web Application (Full Stack Project)
 
-<img src='https://i.imgur.com/H3O4A2u.png' alt='Ecommerce Project'>
+<img src='https://i.imgur.com/fHABTGj.png' alt='Ecommerce Project'>
 
 ## Technologies used 🛠️
 * React.js
