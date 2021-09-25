@@ -13,6 +13,7 @@
 - Users can signup and login.
 - Users can search for products.
 - Users can add products to their shopping cart.
+- Users can remove products from their shopping cart.
 - Users can checkout.
 - Users can download a receipt as PDF to their own device.
 - Users can reset their login password.
