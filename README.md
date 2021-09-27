@@ -38,15 +38,10 @@
 - <a href='https://react-icons.github.io/react-icons/'>React Icons</a>
 - <a href='https://nodemailer.com/about/'>Nodemailer</a>
 
-## Live Preview 🔗
+<!-- ## Live Preview 🔗
 The client side is hosted on Netlify and the server side is hoset on Heroku.
 
-For live preview, <strong><a href='https://mazononline.netlify.app/'>Click Here</a></strong>.
-
-<!-- ## Live Preview 🔗
-The project is hosted on Heroku.
-
-For live preview, <strong><a href='https://travilgo.herokuapp.com/'>Click Here</a></strong>. -->
+For live preview, <strong><a href='https://mazononline.netlify.app/'>Click Here</a></strong>. -->
 
 <!-- ## Demonstration 🤹‍♂️
 ### Admin Panel:
